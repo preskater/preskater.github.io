@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Menu, X, ChevronRight } from 'lucide-react';
 import LanguageToggle from './LanguageToggle';
+import logo from '../assets/logo.svg'; // Adjust the path as necessary
 
 const Header = () => {
   const { t } = useTranslation();
@@ -42,7 +43,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center cursor-pointer" onClick={() => scrollToSection('hero')}>
             <div className="w-8 h-8 lg:w-14 lg:h-14 bg-gradient-to-br from-teal-600 to-teal-800 rounded-lg flex items-center justify-center mr-3">
-              <img src="/logo.svg" alt="Logo" className="w-6 h-6 lg:w-14 lg:h-14 text-white " />
+              <img src={logo} alt="Logo" className="w-6 h-6 lg:w-14 lg:h-14 text-white " />
             </div>
             <span className={`font-bold text-xl lg:text-2xl transition-colors ${
               isScrolled ? 'text-gray-900' : 'text-white'
