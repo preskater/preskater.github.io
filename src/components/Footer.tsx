@@ -32,7 +32,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center mb-6">
               <div className="w-10 h-10 bg-gradient-to-br from-teal-500 to-teal-600 rounded-lg flex items-center justify-center mr-3">
-              <img src="/logo2.svg" alt="Logo" className="w-6 h-6 lg:w-14 lg:h-14 text-white " />
+              <img src="/logo.svg" alt="Logo" className="w-6 h-6 lg:w-14 lg:h-14 text-white " />
               </div>
               <span className="font-bold text-2xl">preskater</span>
             </div>
