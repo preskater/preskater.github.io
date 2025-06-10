@@ -1,0 +1,334 @@
+{
+  "nav": {
+    "services": "Services",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "team": "Team",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "badge": "Enterprise Software Solutions",
+    "title": "Transform Your Business with",
+    "titleHighlight": "Custom Software",
+    "subtitle": "We deliver cutting-edge software solutions that drive growth, optimize operations, and give you a competitive edge in today's digital landscape.",
+    "startProject": "Start Your Project",
+    "viewWork": "View Our Work",
+    "features": {
+      "customDev": "Custom Development",
+      "rapidDeploy": "Rapid Deployment",
+      "security": "Enterprise Security"
+    }
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "Comprehensive Software Solutions",
+    "subtitle": "From concept to deployment, we provide end-to-end software development services that transform your ideas into powerful digital solutions.",
+    "webDev": {
+      "title": "Custom Web Development",
+      "description": "Tailored web applications built with modern frameworks and best practices for optimal performance and user experience.",
+      "features": ["Responsive Design", "Performance Optimization", "SEO Friendly", "Cross-browser Compatibility"]
+    },
+    "mobileDev": {
+      "title": "Mobile App Development",
+      "description": "Native and cross-platform mobile applications that deliver exceptional user experiences across iOS and Android.",
+      "features": ["Cross-platform Solutions", "Native Performance", "App Store Deployment", "Push Notifications"]
+    },
+    "cloudInfra": {
+      "title": "Cloud Infrastructure",
+      "description": "Scalable cloud solutions and DevOps practices to ensure your applications are reliable, secure, and cost-effective.",
+      "features": ["Multi-cloud Support", "Container Orchestration", "CI/CD Pipelines", "Auto-scaling"]
+    },
+    "dataSolutions": {
+      "title": "Data Solutions",
+      "description": "Comprehensive data architecture, analytics, and business intelligence solutions to unlock insights from your data.",
+      "features": ["Database Design", "Data Analytics", "Real-time Processing", "Business Intelligence"]
+    },
+    "apiDev": {
+      "title": "API Development",
+      "description": "Robust and scalable APIs that enable seamless integration between systems and third-party services.",
+      "features": ["RESTful Services", "GraphQL Implementation", "Microservices Architecture", "API Gateway"]
+    },
+    "digitalTransform": {
+      "title": "Digital Transformation",
+      "description": "Strategic consulting and implementation to modernize your business processes and technology stack.",
+      "features": ["Process Automation", "Legacy Migration", "System Integration", "Digital Strategy"]
+    },
+    "cta": {
+      "title": "Ready to Start Your Next Project?",
+      "subtitle": "Let's discuss how we can help transform your business with custom software solutions.",
+      "button": "Get Free Consultation"
+    }
+  },
+  "about": {
+    "badge": "About Preskater",
+    "title": "Your Trusted Technology Partner",
+    "subtitle": "We are a team of passionate developers, designers, and strategists dedicated to creating software solutions that drive real business results.",
+    "stats": {
+      "projects": "Projects Delivered",
+      "clients": "Happy Clients",
+      "experience": "Years Experience",
+      "satisfaction": "Client Satisfaction"
+    },
+    "expertise": {
+      "title": "Expertise That Delivers Results",
+      "description1": "Founded with a vision to bridge the gap between complex business needs and innovative technology solutions, Preskater has evolved into a trusted partner for businesses seeking digital transformation.",
+      "description2": "Our multidisciplinary team combines deep technical expertise with business acumen to deliver solutions that not only meet your current requirements but also position you for future growth.",
+      "points": [
+        "End-to-end project management",
+        "Agile development methodology",
+        "Post-launch support and maintenance",
+        "Transparent communication"
+      ]
+    },
+    "values": {
+      "innovation": {
+        "title": "Innovation First",
+        "description": "We stay ahead of technology trends to deliver cutting-edge solutions that give you a competitive advantage."
+      },
+      "quality": {
+        "title": "Quality Assurance",
+        "description": "Rigorous testing and code review processes ensure every solution meets the highest standards of quality and reliability."
+      },
+      "partnership": {
+        "title": "Client Partnership",
+        "description": "We work as an extension of your team, maintaining transparent communication throughout the development process."
+      },
+      "scalability": {
+        "title": "Scalable Solutions",
+        "description": "Our architectures are designed to grow with your business, ensuring long-term value and adaptability."
+      }
+    }
+  },
+  "portfolio": {
+    "badge": "Our Portfolio",
+    "title": "Success Stories & Case Studies",
+    "subtitle": "From enterprise solutions to small business tools, we've helped clients across different scales achieve their digital transformation goals through tailored software solutions.",
+    "projects": {
+      "dashboard": {
+        "title": "Enterprise Dashboard",
+        "category": "Web Application",
+        "description": "A comprehensive analytics dashboard for a Fortune 500 company, featuring real-time data visualization and advanced reporting capabilities.",
+        "results": ["40% increase in operational efficiency", "60% reduction in manual processes"]
+      },
+      "ecommerce": {
+        "title": "E-commerce Platform",
+        "category": "Full-Stack Solution",
+        "description": "A scalable e-commerce platform with advanced inventory management, payment processing, and customer analytics.",
+        "results": ["300% increase in online sales", "50% improvement in user engagement"]
+      },
+      "restaurant": {
+        "title": "Local Restaurant Website",
+        "category": "Business Website",
+        "description": "A modern restaurant website with online menu, reservation system, and integrated ordering for local delivery.",
+        "results": ["150% increase in online orders", "Streamlined reservation process"]
+      },
+      "fitness": {
+        "title": "Fitness Tracker App",
+        "category": "Mobile Application",
+        "description": "A simple fitness tracking mobile app with workout logging, progress charts, and goal setting features.",
+        "results": ["500+ active users", "4.5 star app store rating"]
+      },
+      "crm": {
+        "title": "Small Business CRM",
+        "category": "Business Tool",
+        "description": "A lightweight customer relationship management system designed for small businesses to track leads and manage client communications.",
+        "results": ["25% improvement in lead conversion", "Reduced manual data entry"]
+      },
+      "portfolio": {
+        "title": "Portfolio Website",
+        "category": "Creative Showcase",
+        "description": "A responsive portfolio website for a local photographer featuring image galleries, client testimonials, and booking system.",
+        "results": ["Professional online presence", "Increased client inquiries"]
+      }
+    },
+    "cta": {
+      "title": "Ready to Be Our Next Success Story?",
+      "subtitle": "Every great project starts with a conversation. Let's discuss your vision and explore how we can bring it to life.",
+      "button": "Start Your Project Today"
+    },
+    "viewCase": "View Case Study"
+  },
+  "team": {
+    "badge": "Our Team",
+    "title": "Meet the Experts Behind Your Success",
+    "subtitle": "Our diverse team of talented professionals brings together years of experience across different technologies and industries to deliver exceptional results.",
+    "members": {
+      "alex": {
+        "name": "Alex Rodriguez",
+        "role": "CEO & Lead Architect",
+        "bio": "Full-stack developer with 10+ years of experience in enterprise software development and team leadership.",
+        "skills": ["System Architecture", "Team Leadership", "Strategic Planning"]
+      },
+      "sarah": {
+        "name": "Sarah Chen",
+        "role": "Lead Frontend Developer",
+        "bio": "UI/UX specialist passionate about creating intuitive user experiences with modern web technologies.",
+        "skills": ["React/Vue.js", "UI/UX Design", "Performance Optimization"]
+      },
+      "michael": {
+        "name": "Michael Johnson",
+        "role": "Backend Engineer",
+        "bio": "Backend specialist focused on scalable architectures, database optimization, and API development.",
+        "skills": ["Node.js/Python", "Database Design", "Cloud Infrastructure"]
+      },
+      "emily": {
+        "name": "Emily Davis",
+        "role": "DevOps Engineer",
+        "bio": "Cloud infrastructure expert specializing in CI/CD pipelines, containerization, and system reliability.",
+        "skills": ["AWS/Azure", "Docker/Kubernetes", "Automation"]
+      },
+      "david": {
+        "name": "David Kim",
+        "role": "Mobile Developer",
+        "bio": "Cross-platform mobile development expert with a focus on performance and user experience.",
+        "skills": ["React Native", "iOS/Android", "Mobile UI/UX"]
+      },
+      "lisa": {
+        "name": "Lisa Thompson",
+        "role": "Project Manager",
+        "bio": "Agile project management specialist ensuring timely delivery and seamless client communication.",
+        "skills": ["Agile/Scrum", "Client Relations", "Quality Assurance"]
+      }
+    },
+    "stats": {
+      "teamMembers": "Team Members",
+      "avgExperience": "Years Average Experience",
+      "technologies": "Technologies Mastered",
+      "remote": "Remote Collaboration"
+    },
+    "joinTeam": {
+      "title": "Want to Join Our Team?",
+      "subtitle": "We're always looking for talented individuals who share our passion for creating exceptional software solutions.",
+      "button": "View Open Positions"
+    }
+  },
+  "contact": {
+    "badge": "Get In Touch",
+    "title": "Let's Start Your Next Project",
+    "subtitle": "Ready to transform your business with custom software? We'd love to hear about your project and discuss how we can help bring your vision to life.",
+    "info": {
+      "title": "Contact Information",
+      "email": {
+        "title": "Email Us",
+        "details": "hello@preskater.com",
+        "description": "Send us an email anytime"
+      },
+      "phone": {
+        "title": "Call Us",
+        "details": "+1 (555) 123-4567",
+        "description": "Mon-Fri from 8am to 6pm"
+      },
+      "location": {
+        "title": "Visit Us",
+        "details": "San Francisco, CA",
+        "description": "Come say hello at our office"
+      },
+      "response": {
+        "title": "Response Time",
+        "details": "< 24 hours",
+        "description": "We respond quickly"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked",
+      "items": [
+        "Free initial consultation",
+        "Flexible engagement models",
+        "NDA protection available",
+        "Post-launch support included"
+      ]
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company Name",
+      "project": "Project Type",
+      "budget": "Project Budget",
+      "message": "Project Description",
+      "send": "Send Message",
+      "required": "*",
+      "placeholders": {
+        "name": "Enter your full name",
+        "email": "Enter your email",
+        "company": "Your company name",
+        "message": "Tell us about your project, goals, timeline, and any specific requirements..."
+      },
+      "projectTypes": {
+        "select": "Select project type",
+        "webApp": "Web Application",
+        "mobileApp": "Mobile Application",
+        "enterprise": "Enterprise Software",
+        "ecommerce": "E-commerce Platform",
+        "api": "API Development",
+        "consultation": "Consultation",
+        "other": "Other"
+      },
+      "budgetRanges": {
+        "select": "Select budget range",
+        "notSure": "I'm not sure yet",
+        "under2k": "Under €2,000",
+        "2k5k": "€2,000 - €5,000",
+        "5k10k": "€5,000 - €10,000",
+        "10k20k": "€10,000 - €20,000",
+        "over20k": "Over €20,000"
+      }
+    },
+    "success": {
+      "title": "Thank You!",
+      "message": "We've received your message and will get back to you within 24 hours."
+    }
+  },
+  "footer": {
+    "description": "Transforming businesses through innovative software solutions. We're your trusted partner for digital transformation and custom development.",
+    "services": {
+      "title": "Services",
+      "items": [
+        "Web Development",
+        "Mobile Apps",
+        "Cloud Solutions",
+        "API Development",
+        "Digital Transformation",
+        "Consultation"
+      ]
+    },
+    "company": {
+      "title": "Company",
+      "items": [
+        { "text": "About Us", "section": "about" },
+        { "text": "Our Team", "section": "team" },
+        { "text": "Portfolio", "section": "portfolio" },
+        { "text": "Careers", "section": "team" },
+        { "text": "Blog", "section": "about" },
+        { "text": "Contact", "section": "contact" }
+      ]
+    },
+    "contactInfo": {
+      "title": "Contact Info",
+      "email": {
+        "value": "contact@preskater.com",
+        "description": "We respond within 24hrs"
+      },
+      "phone": {
+        "value": "+262 2 62 12 34 56",
+        "description": "Mon-Fri, 8am-6pm GMT+4"
+      },
+      "location": {
+        "value": "Salazie",
+        "description": "La Réunion"
+      }
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Get the latest insights on software development and technology trends.",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe"
+    },
+    "bottom": {
+      "copyright": "Preskater. All rights reserved. Built with passion for innovation.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "backToTop": "Back to Top"
+    }
+  }
+}
