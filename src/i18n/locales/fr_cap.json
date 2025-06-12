@@ -1,77 +1,77 @@
 {
   "nav": {
     "services": "Services",
-    "about": "À propos",
+    "about": "À Propos",
     "portfolio": "Portfolio",
     "team": "Équipe",
     "contact": "Contact",
     "getStarted": "Commencer"
   },
   "hero": {
-    "badge": "Solutions logicielles d'entreprise",
-    "title": "Transformez votre entreprise avec des",
+    "badge": "Solutions Logicielles d'Entreprise",
+    "title": "Transformez Votre Entreprise avec des",
     "titleHighlight": "Logiciels Sur Mesure",
     "subtitle": "Nous livrons des solutions logicielles de pointe qui stimulent la croissance, optimisent les opérations et vous donnent un avantage concurrentiel dans le paysage numérique d'aujourd'hui.",
-    "startProject": "Démarrer votre projet",
-    "viewWork": "Voir nos réalisations",
+    "startProject": "Démarrer Votre Projet",
+    "viewWork": "Voir Nos Réalisations",
     "features": {
-      "customDev": "Développement sur mesure",
-      "rapidDeploy": "Déploiement rapide",
-      "security": "Sécurité d'entreprise"
+      "customDev": "Développement Sur Mesure",
+      "rapidDeploy": "Déploiement Rapide",
+      "security": "Sécurité d'Entreprise"
     }
   },
   "services": {
-    "badge": "Nos services",
-    "title": "Solutions logicielles complètes",
+    "badge": "Nos Services",
+    "title": "Solutions Logicielles Complètes",
     "subtitle": "Du concept au déploiement, nous fournissons des services de développement logiciel de bout en bout qui transforment vos idées en solutions numériques puissantes.",
     "webDev": {
-      "title": "Développement web sur mesure",
+      "title": "Développement Web Sur Mesure",
       "description": "Applications web sur mesure construites avec des frameworks modernes et les meilleures pratiques pour des performances optimales et une expérience utilisateur exceptionnelle.",
-      "features": ["Design responsive", "Optimisation des performances", "SEO optimisé", "Compatibilité multi-navigateurs"]
+      "features": ["Design Responsive", "Optimisation des Performances", "SEO Optimisé", "Compatibilité Multi-navigateurs"]
     },
     "mobileDev": {
-      "title": "Développement d'applications mobiles",
+      "title": "Développement d'Applications Mobiles",
       "description": "Applications mobiles natives et multiplateformes qui offrent des expériences utilisateur exceptionnelles sur iOS et Android.",
-      "features": ["Solutions multiplateformes", "Performance native", "Déploiement sur les magasins d'applications", "Notifications push"]
+      "features": ["Solutions Multiplateformes", "Performance Native", "Déploiement sur les Magasins d'Applications", "Notifications Push"]
     },
     "cloudInfra": {
-      "title": "Infrastructure cloud",
+      "title": "Infrastructure Cloud",
       "description": "Solutions cloud évolutives et pratiques DevOps pour garantir que vos applications sont fiables, sécurisées et rentables.",
-      "features": ["Support multi-cloud", "Orchestration de conteneurs", "Pipelines CI/CD", "Auto-scaling"]
+      "features": ["Support Multi-cloud", "Orchestration de Conteneurs", "Pipelines CI/CD", "Auto-scaling"]
     },
     "dataSolutions": {
-      "title": "Solutions de données",
+      "title": "Solutions de Données",
       "description": "Architecture de données complète, analyses et solutions de business intelligence pour exploiter les insights de vos données.",
-      "features": ["Conception de base de données", "Analyse de données", "Traitement en temps réel", "Business intelligence"]
+      "features": ["Conception de Base de Données", "Analyse de Données", "Traitement en Temps Réel", "Business Intelligence"]
     },
     "apiDev": {
       "title": "Développement d'API",
       "description": "APIs robustes et évolutives qui permettent une intégration transparente entre les systèmes et les services tiers.",
-      "features": ["Services RESTful", "Implémentation GraphQL", "Architecture microservices", "Passerelle API"]
+      "features": ["Services RESTful", "Implémentation GraphQL", "Architecture Microservices", "Passerelle API"]
     },
     "digitalTransform": {
-      "title": "Transformation numérique",
+      "title": "Transformation Numérique",
       "description": "Conseil stratégique et implémentation pour moderniser vos processus métier et votre stack technologique.",
-      "features": ["Automatisation des processus", "Migration legacy", "Intégration système", "Stratégie numérique"]
+      "features": ["Automatisation des Processus", "Migration Legacy", "Intégration Système", "Stratégie Numérique"]
     },
     "cta": {
-      "title": "Prêt à démarrer votre prochain projet ?",
+      "title": "Prêt à Démarrer Votre Prochain Projet ?",
       "subtitle": "Discutons de la façon dont nous pouvons aider à transformer votre entreprise avec des solutions logicielles sur mesure.",
-      "button": "Consultation gratuite"
+      "button": "Consultation Gratuite"
     }
   },
   "about": {
-    "badge": "À propos de Preskater",
-    "title": "Votre partenaire technologique de confiance",
+    "badge": "À Propos de Preskater",
+    "title": "Votre Partenaire Technologique de Confiance",
     "subtitle": "Nous sommes une équipe de développeurs, designers et stratèges passionnés dédiés à créer des solutions logicielles qui génèrent de vrais résultats commerciaux.",
     "stats": {
-      "projects": "Projets livrés",
-      "clients": "Clients satisfaits",
-      "experience": "Années d'expérience",
-      "satisfaction": "Satisfaction client"
+      "projects": "Projets Livrés",
+      "clients": "Clients Satisfaits",
+      "experience": "Années d'Expérience",
+      "satisfaction": "Satisfaction Client"
     },
     "expertise": {
-      "title": "Une expertise qui livre des résultats",
+      "title": "Une Expertise qui Livre des Résultats",
       "description1": "Fondée avec la vision de combler le fossé entre les besoins commerciaux complexes et les solutions technologiques innovantes, Preskater a évolué pour devenir un partenaire de confiance pour les entreprises cherchant la transformation numérique.",
       "description2": "Notre équipe multidisciplinaire combine une expertise technique approfondie avec un sens des affaires pour livrer des solutions qui non seulement répondent à vos exigences actuelles mais vous positionnent aussi pour une croissance future.",
       "points": [
@@ -83,155 +83,155 @@
     },
     "values": {
       "innovation": {
-        "title": "Innovation d'abord",
+        "title": "Innovation d'Abord",
         "description": "Nous restons à l'avant-garde des tendances technologiques pour livrer des solutions de pointe qui vous donnent un avantage concurrentiel."
       },
       "quality": {
-        "title": "Assurance qualité",
+        "title": "Assurance Qualité",
         "description": "Des processus rigoureux de test et de révision de code garantissent que chaque solution répond aux plus hauts standards de qualité et de fiabilité."
       },
       "partnership": {
-        "title": "Partenariat client",
+        "title": "Partenariat Client",
         "description": "Nous travaillons comme une extension de votre équipe, maintenant une communication transparente tout au long du processus de développement."
       },
       "scalability": {
-        "title": "Solutions évolutives",
+        "title": "Solutions Évolutives",
         "description": "Nos architectures sont conçues pour grandir avec votre entreprise, garantissant une valeur à long terme et une adaptabilité."
       }
     }
   },
   "portfolio": {
-    "badge": "Notre portfolio",
-    "title": "Histoires de succès et études de cas",
+    "badge": "Notre Portfolio",
+    "title": "Succes Stories",
     "subtitle": "Des solutions d'entreprise aux outils pour petites entreprises, nous avons aidé des clients de différentes échelles à atteindre leurs objectifs de transformation numérique grâce à des solutions logicielles sur mesure.",
     "projects": {
       "dashboard": {
-        "title": "Tableau de bord d'entreprise",
-        "category": "Application web",
-        "description": "Un tableau de bord d'analyse complet pour une entreprise Fortune 500, avec visualisation de données en temps réel et capacités de reporting avancées.",
+        "title": "Tableau de Bord d'Entreprise",
+        "category": "Application Web",
+        "description": "Un tableau de bord d'analyse complet pour une entreprise, avec visualisation de données en temps réel et capacités de reporting avancées.",
         "results": ["40% d'augmentation de l'efficacité opérationnelle", "60% de réduction des processus manuels"]
       },
       "ecommerce": {
-        "title": "Plateforme e-commerce",
-        "category": "Solution full-stack",
+        "title": "Plateforme E-commerce",
+        "category": "Solution Full-Stack",
         "description": "Une plateforme e-commerce évolutive avec gestion d'inventaire avancée, traitement des paiements et analyses client.",
         "results": ["300% d'augmentation des ventes en ligne", "50% d'amélioration de l'engagement utilisateur"]
       },
       "restaurant": {
-        "title": "Site web de restaurant local",
-        "category": "Site web d'entreprise",
+        "title": "Site Web de Restaurant Local",
+        "category": "Site Web d'Entreprise",
         "description": "Un site web moderne de restaurant avec menu en ligne, système de réservation et commande intégrée pour livraison locale.",
         "results": ["150% d'augmentation des commandes en ligne", "Processus de réservation rationalisé"]
       },
       "fitness": {
-        "title": "Application de suivi fitness",
-        "category": "Application mobile",
+        "title": "Application de Suivi Fitness",
+        "category": "Application Mobile",
         "description": "Une application mobile simple de suivi fitness avec journalisation d'entraînements, graphiques de progression et fonctionnalités de définition d'objectifs.",
         "results": ["500+ utilisateurs actifs", "Note de 4,5 étoiles sur l'app store"]
       },
       "crm": {
-        "title": "CRM pour petite entreprise",
-        "category": "Outil d'entreprise",
+        "title": "CRM pour Petite Entreprise",
+        "category": "Outil d'Entreprise",
         "description": "Un système de gestion de la relation client léger conçu pour les petites entreprises pour suivre les prospects et gérer les communications clients.",
         "results": ["25% d'amélioration de la conversion des prospects", "Réduction de la saisie manuelle de données"]
       },
       "portfolio": {
-        "title": "Site web portfolio",
-        "category": "Vitrine créative",
-        "description": "Un site web portfolio responsive pour un photographe local avec galeries d'images, témoignages clients et système de réservation.",
-        "results": ["Présence en ligne professionnelle", "Augmentation des demandes clients"]
+        "title": "Site Web Portfolio",
+        "category": "Vitrine Créative",
+        "description": "Un site web portfolio responsive pour Julien, un développeur de l'entreprise Preskater.",
+        "results": ["Présence en ligne professionnelle", "CV rapidement accessible"]
       }
     },
     "cta": {
-      "title": "Prêt à être notre prochaine histoire de succès ?",
+      "title": "Prêt à Être Notre Prochaine Succes Story ?",
       "subtitle": "Chaque grand projet commence par une conversation. Discutons de votre vision et explorons comment nous pouvons la concrétiser.",
-      "button": "Démarrez votre projet aujourd'hui"
+      "button": "Démarrez Votre Projet Aujourd'hui"
     },
-    "viewCase": "Voir l'étude de cas"
+    "viewCase": "Voir le Projet"
   },
   "team": {
-    "badge": "Notre équipe",
-    "title": "Rencontrez les experts derrière votre succès",
-    "subtitle": "Notre équipe diversifiée de professionnels talentueux rassemble des années d'expérience à travers différentes technologies et industries pour livrer des résultats exceptionnels.",
+    "badge": "Notre Équipe",
+    "title": "Rencontrez les Experts Derrière Votre Succès",
+    "subtitle": "Notre équipe de professionnels talentueux rassemble des années d'expérience à travers différentes technologies et industries pour livrer des résultats exceptionnels.",
     "members": {
-      "alex": {
-        "name": "Alex Rodriguez",
-        "role": "PDG et architecte principal",
-        "bio": "Développeur full-stack avec plus de 10 ans d'expérience dans le développement logiciel d'entreprise et le leadership d'équipe.",
-        "skills": ["Architecture système", "Leadership d'équipe", "Planification stratégique"]
+      "clement": {
+        "name": "Clément Antoine XAVIER",
+        "role": "DevOps et Développeur Backend",
+        "bio": "DevOps et développeur backend avec une passion pour l'automatisation, la fiabilité des systèmes et les architectures cloud évolutives.",
+        "skills": ["API", "CI/CD", "Docker", "Kubernetes"]
       },
-      "sarah": {
-        "name": "Sarah Chen",
-        "role": "Développeuse frontend principale",
+      "hugo": {
+        "name": "Hugo Carolin",
+        "role": "Développeur Frontend Principal",
         "bio": "Spécialiste UI/UX passionnée par la création d'expériences utilisateur intuitives avec les technologies web modernes.",
-        "skills": ["React/Vue.js", "Design UI/UX", "Optimisation des performances"]
+        "skills": ["React", "Design UI/UX", "Optimisation des Performances"]
       },
-      "michael": {
-        "name": "Michael Johnson",
-        "role": "Ingénieur backend",
-        "bio": "Spécialiste backend axé sur les architectures évolutives, l'optimisation de base de données et le développement d'API.",
-        "skills": ["Node.js/Python", "Conception de base de données", "Infrastructure cloud"]
+      "julien": {
+        "name": "Julien Ferdinand",
+        "role": "Développeur FullStack",
+        "bio": "Développeur fullstack avec une expertise dans la création d'applications web et mobile dynamiques et réactives, du frontend au backend.",
+        "skills": ["React", "Symfony", "Python", "Node.js"]
       },
-      "emily": {
-        "name": "Emily Davis",
-        "role": "Ingénieure DevOps",
-        "bio": "Experte en infrastructure cloud spécialisée dans les pipelines CI/CD, la conteneurisation et la fiabilité système.",
-        "skills": ["AWS/Azure", "Docker/Kubernetes", "Automatisation"]
+      "leo": {
+        "name": "Léo Sautron",
+        "role": "Développeur Backend Principal",
+        "bio": "Expert en développement backend avec une solide expérience dans la création d'architectures robustes et évolutives pour les applications d'entreprise.",
+        "skills": ["Node.js", "Python", "Bases de Données SQL/NoSQL", "Microservices"]
       },
-      "david": {
-        "name": "David Kim",
-        "role": "Développeur mobile",
-        "bio": "Expert en développement mobile multiplateforme avec un focus sur les performances et l'expérience utilisateur.",
-        "skills": ["React Native", "iOS/Android", "UI/UX mobile"]
+      "luan": {
+        "name": "Luan Sautron",
+        "role": "Développeur FullStack et Chef de Projet",
+        "bio": "Développeur fullstack et chef de projet avec une passion pour la livraison de solutions logicielles de haute qualité et la gestion efficace des équipes.",
+        "skills": ["JavaScript", "React", "Node.js", "Gestion de Projet Agile"]
       },
-      "lisa": {
-        "name": "Lisa Thompson",
-        "role": "Chef de projet",
-        "bio": "Spécialiste en gestion de projet agile garantissant une livraison dans les temps et une communication client fluide.",
-        "skills": ["Agile/Scrum", "Relations client", "Assurance qualité"]
+      "nathan": {
+        "name": "Nathan Maillot",
+        "role": "Développeur FullStack",
+        "bio": "Développeur fullstack avec une expertise dans la création d'applications web et mobile dynamiques et réactives, du frontend au backend.",
+        "skills": ["React", "Python", "Node.js"]
       }
     },
     "stats": {
-      "teamMembers": "Membres d'équipe",
-      "avgExperience": "Années d'expérience moyenne",
-      "technologies": "Technologies maîtrisées",
-      "remote": "Collaboration à distance"
+      "teamMembers": "Membres d'Équipe",
+      "avgExperience": "Années d'Expérience Moyenne",
+      "technologies": "Technologies Maîtrisées",
+      "remote": "Collaboration à Distance"
     },
     "joinTeam": {
-      "title": "Envie de rejoindre notre équipe ?",
+      "title": "Envie de Rejoindre Notre Équipe ?",
       "subtitle": "Nous recherchons toujours des individus talentueux qui partagent notre passion pour créer des solutions logicielles exceptionnelles.",
-      "button": "Voir les postes ouverts"
+      "button": "Voir les Postes Ouverts"
     }
   },
   "contact": {
-    "badge": "Contactez-nous",
-    "title": "Commençons votre prochain projet",
+    "badge": "Contactez-Nous",
+    "title": "Commençons Votre Prochain Projet",
     "subtitle": "Prêt à transformer votre entreprise avec un logiciel sur mesure ? Nous aimerions entendre parler de votre projet et discuter de la façon dont nous pouvons aider à concrétiser votre vision.",
     "info": {
-      "title": "Informations de contact",
+      "title": "Informations de Contact",
       "email": {
-        "title": "Envoyez-nous un email",
+        "title": "Envoyez-nous un Email",
         "details": "contact@preskater.com",
         "description": "Envoyez-nous un email à tout moment"
       },
       "phone": {
-        "title": "Appelez-nous",
+        "title": "Appelez-Nous",
         "details": "0692 69 79 34",
         "description": "Lun-Ven de 8h à 18h"
       },
       "location": {
-        "title": "Visitez-nous",
+        "title": "Visitez-Nous",
         "details": "Salazie, La Réunion",
         "description": "Venez nous dire bonjour à notre bureau"
       },
       "response": {
-        "title": "Temps de réponse",
+        "title": "Temps de Réponse",
         "details": "< 24 heures",
         "description": "Nous répondons rapidement"
       }
     },
     "faq": {
-      "title": "Questions fréquentes",
+      "title": "Questions Fréquentes",
       "items": [
         "Consultation initiale gratuite",
         "Modèles d'engagement flexibles",
@@ -240,13 +240,14 @@
       ]
     },
     "form": {
-      "name": "Nom complet",
-      "email": "Adresse email",
-      "company": "Nom de l'entreprise",
-      "project": "Type de projet",
-      "budget": "Budget du projet",
-      "message": "Description du projet",
+      "name": "Nom Complet",
+      "email": "Adresse Email",
+      "company": "Nom de l'Entreprise",
+      "project": "Type de Projet",
+      "budget": "Budget du Projet",
+      "message": "Description du Projet",
       "send": "Envoyer",
+      "sendDisabled": "Ce formulaire est désactivé pour le moment, veuillez nous contacter par email ou par téléphone.",
       "required": "*",
       "placeholders": {
         "name": "Entrez votre nom complet",
@@ -256,10 +257,10 @@
       },
       "projectTypes": {
         "select": "Sélectionnez le type de projet",
-        "webApp": "Application web",
-        "mobileApp": "Application mobile",
-        "enterprise": "Logiciel d'entreprise",
-        "ecommerce": "Plateforme e-commerce",
+        "webApp": "Application Web",
+        "mobileApp": "Application Mobile",
+        "enterprise": "Logiciel d'Entreprise",
+        "ecommerce": "Plateforme E-commerce",
         "api": "Développement d'API",
         "consultation": "Consultation",
         "other": "Autre"
@@ -284,19 +285,19 @@
     "services": {
       "title": "Services",
       "items": [
-        "Développement web",
-        "Applications mobiles",
-        "Solutions cloud",
+        "Développement Web",
+        "Applications Mobiles",
+        "Solutions Cloud",
         "Développement d'API",
-        "Transformation numérique",
+        "Transformation Numérique",
         "Consultation"
       ]
     },
     "company": {
       "title": "Entreprise",
       "items": [
-        { "text": "À propos", "section": "about" },
-        { "text": "Notre équipe", "section": "team" },
+        { "text": "À Propos", "section": "about" },
+        { "text": "Notre Équipe", "section": "team" },
         { "text": "Portfolio", "section": "portfolio" },
         { "text": "Carrières", "section": "team" },
         { "text": "Blog", "section": "about" },
@@ -304,7 +305,7 @@
       ]
     },
     "contactInfo": {
-      "title": "Infos contact",
+      "title": "Infos Contact",
       "email": {
         "value": "contact@preskater.com",
         "description": "Nous répondons dans les 24 heures"
@@ -319,16 +320,16 @@
       }
     },
     "newsletter": {
-      "title": "Restez informé",
+      "title": "Restez Informé",
       "description": "Recevez les dernières informations sur le développement logiciel et les tendances technologiques.",
       "placeholder": "Entrez votre email",
       "subscribe": "S'abonner"
     },
     "bottom": {
       "copyright": "Preskater. Tous droits réservés. Construit avec passion pour l'innovation.",
-      "privacy": "Politique de confidentialité",
-      "terms": "Conditions d'utilisation",
-      "backToTop": "Retour en haut"
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions d'Utilisation",
+      "backToTop": "Retour en Haut"
     }
   }
 }

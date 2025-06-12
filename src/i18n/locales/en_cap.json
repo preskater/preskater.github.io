@@ -5,73 +5,73 @@
     "portfolio": "Portfolio",
     "team": "Team",
     "contact": "Contact",
-    "getStarted": "Get started"
+    "getStarted": "Get Started"
   },
   "hero": {
-    "badge": "Enterprise software solutions",
-    "title": "Transform your business with",
+    "badge": "Enterprise Software Solutions",
+    "title": "Transform Your Business with",
     "titleHighlight": "Custom Software",
     "subtitle": "We deliver cutting-edge software solutions that drive growth, optimize operations, and give you a competitive edge in today's digital landscape.",
-    "startProject": "Start your project",
-    "viewWork": "View our work",
+    "startProject": "Start Your Project",
+    "viewWork": "View Our Work",
     "features": {
-      "customDev": "Custom development",
-      "rapidDeploy": "Rapid deployment",
-      "security": "Enterprise security"
+      "customDev": "Custom Development",
+      "rapidDeploy": "Rapid Deployment",
+      "security": "Enterprise Security"
     }
   },
   "services": {
-    "badge": "Our services",
-    "title": "Comprehensive software solutions",
+    "badge": "Our Services",
+    "title": "Comprehensive Software Solutions",
     "subtitle": "From concept to deployment, we provide end-to-end software development services that transform your ideas into powerful digital solutions.",
     "webDev": {
-      "title": "Custom web development",
+      "title": "Custom Web Development",
       "description": "Tailored web applications built with modern frameworks and best practices for optimal performance and user experience.",
-      "features": ["Responsive design", "Performance optimization", "SEO friendly", "Cross-browser compatibility"]
+      "features": ["Responsive Design", "Performance Optimization", "SEO Friendly", "Cross-browser Compatibility"]
     },
     "mobileDev": {
-      "title": "Mobile app development",
+      "title": "Mobile App Development",
       "description": "Native and cross-platform mobile applications that deliver exceptional user experiences across iOS and Android.",
-      "features": ["Cross-platform solutions", "Native performance", "App store deployment", "Push notifications"]
+      "features": ["Cross-platform Solutions", "Native Performance", "App Store Deployment", "Push Notifications"]
     },
     "cloudInfra": {
-      "title": "Cloud infrastructure",
+      "title": "Cloud Infrastructure",
       "description": "Scalable cloud solutions and DevOps practices to ensure your applications are reliable, secure, and cost-effective.",
-      "features": ["Multi-cloud support", "Container orchestration", "CI/CD pipelines", "Auto-scaling"]
+      "features": ["Multi-cloud Support", "Container Orchestration", "CI/CD Pipelines", "Auto-scaling"]
     },
     "dataSolutions": {
-      "title": "Data solutions",
+      "title": "Data Solutions",
       "description": "Comprehensive data architecture, analytics, and business intelligence solutions to unlock insights from your data.",
-      "features": ["Database design", "Data analytics", "Real-time processing", "Business intelligence"]
+      "features": ["Database Design", "Data Analytics", "Real-time Processing", "Business Intelligence"]
     },
     "apiDev": {
-      "title": "API development",
+      "title": "API Development",
       "description": "Robust and scalable APIs that enable seamless integration between systems and third-party services.",
-      "features": ["RESTful services", "GraphQL implementation", "Microservices architecture", "API gateway"]
+      "features": ["RESTful Services", "GraphQL Implementation", "Microservices Architecture", "API Gateway"]
     },
     "digitalTransform": {
-      "title": "Digital transformation",
+      "title": "Digital Transformation",
       "description": "Strategic consulting and implementation to modernize your business processes and technology stack.",
-      "features": ["Process automation", "Legacy migration", "System integration", "Digital strategy"]
+      "features": ["Process Automation", "Legacy Migration", "System Integration", "Digital Strategy"]
     },
     "cta": {
-      "title": "Ready to start your next project?",
+      "title": "Ready to Start Your Next Project?",
       "subtitle": "Let's discuss how we can help transform your business with custom software solutions.",
-      "button": "Get free consultation"
+      "button": "Get Free Consultation"
     }
   },
   "about": {
     "badge": "About Preskater",
-    "title": "Your trusted technology partner",
+    "title": "Your Trusted Technology Partner",
     "subtitle": "We are a team of passionate developers, designers, and strategists dedicated to creating software solutions that drive real business results.",
     "stats": {
-      "projects": "Projects delivered",
-      "clients": "Happy clients",
-      "experience": "Years experience",
-      "satisfaction": "Client satisfaction"
+      "projects": "Projects Delivered",
+      "clients": "Happy Clients",
+      "experience": "Years Experience",
+      "satisfaction": "Client Satisfaction"
     },
     "expertise": {
-      "title": "Expertise that delivers results",
+      "title": "Expertise That Delivers Results",
       "description1": "Founded with a vision to bridge the gap between complex business needs and innovative technology solutions, Preskater has evolved into a trusted partner for businesses seeking digital transformation.",
       "description2": "Our multidisciplinary team combines deep technical expertise with business acumen to deliver solutions that not only meet your current requirements but also position you for future growth.",
       "points": [
@@ -83,155 +83,155 @@
     },
     "values": {
       "innovation": {
-        "title": "Innovation first",
+        "title": "Innovation First",
         "description": "We stay ahead of technology trends to deliver cutting-edge solutions that give you a competitive advantage."
       },
       "quality": {
-        "title": "Quality assurance",
+        "title": "Quality Assurance",
         "description": "Rigorous testing and code review processes ensure every solution meets the highest standards of quality and reliability."
       },
       "partnership": {
-        "title": "Client partnership",
+        "title": "Client Partnership",
         "description": "We work as an extension of your team, maintaining transparent communication throughout the development process."
       },
       "scalability": {
-        "title": "Scalable solutions",
+        "title": "Scalable Solutions",
         "description": "Our architectures are designed to grow with your business, ensuring long-term value and adaptability."
       }
     }
   },
   "portfolio": {
-    "badge": "Our portfolio",
-    "title": "Success stories & case studies",
+    "badge": "Our Portfolio",
+    "title": "Success Stories",
     "subtitle": "From enterprise solutions to small business tools, we've helped clients across different scales achieve their digital transformation goals through tailored software solutions.",
     "projects": {
       "dashboard": {
-        "title": "Enterprise dashboard",
-        "category": "Web application",
-        "description": "A comprehensive analytics dashboard for a Fortune 500 company, featuring real-time data visualization and advanced reporting capabilities.",
+        "title": "Enterprise Dashboard",
+        "category": "Web Application",
+        "description": "A comprehensive analytics dashboard for a company, featuring real-time data visualization and advanced reporting capabilities.",
         "results": ["40% increase in operational efficiency", "60% reduction in manual processes"]
       },
       "ecommerce": {
-        "title": "E-commerce platform",
-        "category": "Full-stack solution",
+        "title": "E-commerce Platform",
+        "category": "Full-Stack Solution",
         "description": "A scalable e-commerce platform with advanced inventory management, payment processing, and customer analytics.",
         "results": ["300% increase in online sales", "50% improvement in user engagement"]
       },
       "restaurant": {
-        "title": "Local restaurant website",
-        "category": "Business website",
+        "title": "Local Restaurant Website",
+        "category": "Business Website",
         "description": "A modern restaurant website with online menu, reservation system, and integrated ordering for local delivery.",
         "results": ["150% increase in online orders", "Streamlined reservation process"]
       },
       "fitness": {
-        "title": "Fitness tracker app",
-        "category": "Mobile application",
+        "title": "Fitness Tracker App",
+        "category": "Mobile Application",
         "description": "A simple fitness tracking mobile app with workout logging, progress charts, and goal setting features.",
         "results": ["500+ active users", "4.5 star app store rating"]
       },
       "crm": {
-        "title": "Small business CRM",
-        "category": "Business tool",
+        "title": "Small Business CRM",
+        "category": "Business Tool",
         "description": "A lightweight customer relationship management system designed for small businesses to track leads and manage client communications.",
         "results": ["25% improvement in lead conversion", "Reduced manual data entry"]
       },
       "portfolio": {
-        "title": "Portfolio website",
-        "category": "Creative showcase",
-        "description": "A responsive portfolio website for a local photographer featuring image galleries, client testimonials, and booking system.",
-        "results": ["Professional online presence", "Increased client inquiries"]
+        "title": "Portfolio Website",
+        "category": "Creative Showcase",
+        "description": "A responsive portfolio website for Julien, a developer working for Preskater.",
+        "results": ["Professional online presence", "Available resume"]
       }
     },
     "cta": {
-      "title": "Ready to be our next success story?",
+      "title": "Ready to Be Our Next Success Story?",
       "subtitle": "Every great project starts with a conversation. Let's discuss your vision and explore how we can bring it to life.",
-      "button": "Start your project today"
+      "button": "Start Your Project Today"
     },
-    "viewCase": "View case study"
+    "viewCase": "View Project"
   },
   "team": {
-    "badge": "Our team",
-    "title": "Meet the experts behind your success",
-    "subtitle": "Our diverse team of talented professionals brings together years of experience across different technologies and industries to deliver exceptional results.",
+    "badge": "Our Team",
+    "title": "Meet the Experts Behind Your Success",
+    "subtitle": "Our team of talented professionals brings together years of experience across different technologies and industries to deliver exceptional results.",
     "members": {
-      "alex": {
-        "name": "Alex Rodriguez",
-        "role": "CEO & lead architect",
-        "bio": "Full-stack developer with 10+ years of experience in enterprise software development and team leadership.",
-        "skills": ["System architecture", "Team leadership", "Strategic planning"]
+      "clement": {
+        "name": "Clément Antoine XAVIER",
+        "role": "DevOps et Backend Developer",
+        "bio": "DevOps and backend developer with a passion for automation, system reliability and scalable cloud architectures.",
+        "skills": ["API", "CI/CD", "Docker", "Kubernetes"]
       },
-      "sarah": {
-        "name": "Sarah Chen",
-        "role": "Lead frontend developer",
+      "hugo": {
+        "name": "Hugo Carolin",
+        "role": "Main Frontend Developer",
         "bio": "UI/UX specialist passionate about creating intuitive user experiences with modern web technologies.",
-        "skills": ["React/Vue.js", "UI/UX design", "Performance optimization"]
+        "skills": ["React", "Design UI/UX", "Performance Optimization"]
       },
-      "michael": {
-        "name": "Michael Johnson",
-        "role": "Backend engineer",
-        "bio": "Backend specialist focused on scalable architectures, database optimization, and API development.",
-        "skills": ["Node.js/Python", "Database design", "Cloud infrastructure"]
+      "julien": {
+        "name": "Julien Ferdinand",
+        "role": "FullStack Developer",
+        "bio": "Fullstack developer with expertise in creating dynamic, responsive web and mobile applications, from frontend to backend.",
+        "skills": ["React", "Symfony", "Python", "Node.js"]
       },
-      "emily": {
-        "name": "Emily Davis",
-        "role": "DevOps engineer",
-        "bio": "Cloud infrastructure expert specializing in CI/CD pipelines, containerization, and system reliability.",
-        "skills": ["AWS/Azure", "Docker/Kubernetes", "Automation"]
+      "leo": {
+        "name": "Léo Sautron",
+        "role": "Main Backend Developer",
+        "bio": "Backend development expert with solid experience in creating robust, scalable architectures for enterprise applications.",
+        "skills": ["Node.js", "Python", "SQL/NoSQL Databases", "Microservices"]
       },
-      "david": {
-        "name": "David Kim",
-        "role": "Mobile developer",
-        "bio": "Cross-platform mobile development expert with a focus on performance and user experience.",
-        "skills": ["React Native", "iOS/Android", "Mobile UI/UX"]
+      "luan": {
+        "name": "Luan Sautron",
+        "role": "FullStack Developer and Project Manager",
+        "bio": "Fullstack developer and project manager with a passion for delivering high-quality software solutions and effectively managing teams.",
+        "skills": ["JavaScript", "React", "Node.js", "Agile Project Management"]
       },
-      "lisa": {
-        "name": "Lisa Thompson",
-        "role": "Project manager",
-        "bio": "Agile project management specialist ensuring timely delivery and seamless client communication.",
-        "skills": ["Agile/Scrum", "Client relations", "Quality assurance"]
+      "nathan": {
+        "name": "Nathan Maillot",
+        "role": "FullStack Developer",
+        "bio": "Fullstack developer with expertise in creating dynamic, responsive web and mobile applications, from frontend to backend.",
+        "skills": ["React", "Python", "Node.js"]
       }
     },
     "stats": {
-      "teamMembers": "Team members",
-      "avgExperience": "Years average experience",
-      "technologies": "Technologies mastered",
-      "remote": "Remote collaboration"
+      "teamMembers": "Team Members",
+      "avgExperience": "Years Average Experience",
+      "technologies": "Technologies Mastered",
+      "remote": "Remote Collaboration"
     },
     "joinTeam": {
-      "title": "Want to join our team?",
+      "title": "Want to Join Our Team?",
       "subtitle": "We're always looking for talented individuals who share our passion for creating exceptional software solutions.",
-      "button": "View open positions"
+      "button": "View Open Positions"
     }
   },
   "contact": {
-    "badge": "Get in touch",
-    "title": "Let's start your next project",
+    "badge": "Get In Touch",
+    "title": "Let's Start Your Next Project",
     "subtitle": "Ready to transform your business with custom software? We'd love to hear about your project and discuss how we can help bring your vision to life.",
     "info": {
-      "title": "Contact information",
+      "title": "Contact Information",
       "email": {
-        "title": "Email us",
-        "details": "hello@preskater.com",
+        "title": "Email Us",
+        "details": "contact@preskater.com",
         "description": "Send us an email anytime"
       },
       "phone": {
-        "title": "Call us",
-        "details": "+1 (555) 123-4567",
-        "description": "Mon-Fri from 8am to 6pm"
+        "title": "Call Us",
+        "details": "+262 6 92 69 79 34",
+        "description": "Mon-Fri from 8am to 6pm GMT+4"
       },
       "location": {
-        "title": "Visit us",
-        "details": "San Francisco, CA",
+        "title": "Visit Us",
+        "details": "Salazie, La Réunion",
         "description": "Come say hello at our office"
       },
       "response": {
-        "title": "Response time",
+        "title": "Response Time",
         "details": "< 24 hours",
         "description": "We respond quickly"
       }
     },
     "faq": {
-      "title": "Frequently asked",
+      "title": "Frequently Asked",
       "items": [
         "Free initial consultation",
         "Flexible engagement models",
@@ -240,13 +240,14 @@
       ]
     },
     "form": {
-      "name": "Full name",
-      "email": "Email address",
-      "company": "Company name",
-      "project": "Project type",
-      "budget": "Project budget",
-      "message": "Project description",
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company Name",
+      "project": "Project Type",
+      "budget": "Project Budget",
+      "message": "Project Description",
       "send": "Send message",
+      "sendDisabled": "This form is disable for now, please contact us via email or phone.",
       "required": "*",
       "placeholders": {
         "name": "Enter your full name",
@@ -256,11 +257,11 @@
       },
       "projectTypes": {
         "select": "Select project type",
-        "webApp": "Web application",
-        "mobileApp": "Mobile application",
-        "enterprise": "Enterprise software",
-        "ecommerce": "E-commerce platform",
-        "api": "API development",
+        "webApp": "Web Application",
+        "mobileApp": "Mobile Application",
+        "enterprise": "Enterprise Software",
+        "ecommerce": "E-commerce Platform",
+        "api": "API Development",
         "consultation": "Consultation",
         "other": "Other"
       },
@@ -275,7 +276,7 @@
       }
     },
     "success": {
-      "title": "Thank you!",
+      "title": "Thank You!",
       "message": "We've received your message and will get back to you within 24 hours."
     }
   },
@@ -284,19 +285,19 @@
     "services": {
       "title": "Services",
       "items": [
-        "Web development",
-        "Mobile apps",
-        "Cloud solutions",
-        "API development",
-        "Digital transformation",
+        "Web Development",
+        "Mobile Apps",
+        "Cloud Solutions",
+        "API Development",
+        "Digital Transformation",
         "Consultation"
       ]
     },
     "company": {
       "title": "Company",
       "items": [
-        { "text": "About us", "section": "about" },
-        { "text": "Our team", "section": "team" },
+        { "text": "About Us", "section": "about" },
+        { "text": "Our Team", "section": "team" },
         { "text": "Portfolio", "section": "portfolio" },
         { "text": "Careers", "section": "team" },
         { "text": "Blog", "section": "about" },
@@ -304,7 +305,7 @@
       ]
     },
     "contactInfo": {
-      "title": "Contact info",
+      "title": "Contact Info",
       "email": {
         "value": "contact@preskater.com",
         "description": "We respond within 24hrs"
@@ -319,16 +320,16 @@
       }
     },
     "newsletter": {
-      "title": "Stay updated",
+      "title": "Stay Updated",
       "description": "Get the latest insights on software development and technology trends.",
       "placeholder": "Enter your email",
       "subscribe": "Subscribe"
     },
     "bottom": {
       "copyright": "Preskater. All rights reserved. Built with passion for innovation.",
-      "privacy": "Privacy policy",
-      "terms": "Terms of service",
-      "backToTop": "Back to top"
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "backToTop": "Back to Top"
     }
   }
 }

@@ -5,9 +5,9 @@ import { useTranslation } from 'react-i18next';
 const About = () => {
   const { t } = useTranslation();
   const stats = [
-    { number: '150+', label: t("about.stats.projects"), icon: CheckCircle },
-    { number: '50+', label: t("about.stats.clients"), icon: Users },
-    { number: '5+', label: t("about.stats.experience"), icon: Award },
+    { number: '5', label: t("about.stats.projects"), icon: CheckCircle },
+    { number: '5+', label: t("about.stats.clients"), icon: Users },
+    { number: '4+', label: t("about.stats.experience"), icon: Award },
     { number: '99%', label: t("about.stats.satisfaction"), icon: Clock }
   ];
 

@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, Clock, CheckCircle } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Clock, CheckCircle, Forklift, Ban } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
   const { t } = useTranslation();
+  const isFormDown = true;
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -116,7 +117,7 @@ const Contact = () => {
               {isSubmitted ? (
                 <div className="text-center py-12">
                   <CheckCircle className="w-16 h-16 text-teal-600 mx-auto mb-4" />
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">{t('contact.succes.title')}</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">{t('contact.success.title')}</h3>
                   <p className="text-gray-600">
                     {t('contact.success.message')}
                   </p>
@@ -137,6 +138,7 @@ const Contact = () => {
                         onChange={handleChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
                         placeholder={t('contact.form.placeholders.name')}
+                        disabled={isFormDown}
                       />
                     </div>
                     <div>
@@ -152,6 +154,7 @@ const Contact = () => {
                         onChange={handleChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
                         placeholder= {t('contact.form.placeholders.email')}
+                        disabled={isFormDown}
                       />
                     </div>
                   </div>
@@ -169,6 +172,7 @@ const Contact = () => {
                         onChange={handleChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
                         placeholder={t('contact.form.placeholders.company')}
+                        disabled={isFormDown}
                       />
                     </div>
                     <div>
@@ -181,6 +185,7 @@ const Contact = () => {
                         value={formData.project}
                         onChange={handleChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
+                        disabled={isFormDown}
                       >
                         <option value="">{t('contact.form.projectTypes.select')}</option>
                         <option value="web-app">{t('contact.form.projectTypes.webApp')}</option>
@@ -204,6 +209,7 @@ const Contact = () => {
                       value={formData.budget}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
+                        disabled={isFormDown}
                     >
                       <option value="">{t('contact.form.budgetRanges.select')}</option>
                       <option value="not-sure">{t('contact.form.budgetRanges.notSure')}</option>
@@ -228,16 +234,26 @@ const Contact = () => {
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors resize-none"
                       placeholder={t('contact.form.placeholders.message')}
+                      disabled={isFormDown}
                     ></textarea>
                   </div>
 
+                  {isFormDown ? <button
+                    type="submit"
+                    className="w-full bg-gradient-to-r from-red-600 to-red-700 text-white py-4 px-8 rounded-lg hover:from-red-700 hover:to-red-800 transition-all font-semibold text-lg shadow-lg transform flex items-center justify-center space-x-2"
+                    disabled={isFormDown}
+                  >
+                    <Ban className="w-10 h-10" />
+                    <span>{t('contact.form.sendDisabled')}</span>
+                    <Ban className="w-10 h-10" />
+                  </button> : 
                   <button
                     type="submit"
                     className="w-full bg-gradient-to-r from-teal-600 to-teal-700 text-white py-4 px-8 rounded-lg hover:from-teal-700 hover:to-teal-800 transition-all font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-[1.02] flex items-center justify-center space-x-2"
                   >
                     <Send className="w-5 h-5" />
                     <span>{t('contact.form.send')}</span>
-                  </button>
+                  </button> }
                 </form>
               )}
             </div>

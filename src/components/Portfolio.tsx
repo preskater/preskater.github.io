@@ -9,49 +9,59 @@ const Portfolio = () => {
       title: t('portfolio.projects.dashboard.title'),
       category: t('portfolio.projects.dashboard.category'),
       description: t('portfolio.projects.dashboard.description'),
-      image: 'https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: 'https://preskater.com/enterprise-dashboard',
       technologies: ['React', 'Node.js', 'PostgreSQL', 'AWS'],
-      results: t('portfolio.projects.dashboard.results', { returnObjects: true })
+      results: t('portfolio.projects.dashboard.results', { returnObjects: true }),
+      github: ''
     },
     {
       title: t('portfolio.projects.ecommerce.title'),
       category: t('portfolio.projects.ecommerce.category'),
       description: t('portfolio.projects.ecommerce.description'),
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: 'https://preskater.com/ecommerce-platform',
       technologies: ['Next.js', 'Stripe', 'MongoDB', 'Vercel'],
-      results: t('portfolio.projects.ecommerce.results', { returnObjects: true })
+      results: t('portfolio.projects.ecommerce.results', { returnObjects: true }),
+      github: ''
     },
     {
       title: t('portfolio.projects.restaurant.title'),
       category: t('portfolio.projects.restaurant.category'),
       description: t('portfolio.projects.restaurant.description'),
-      image: 'https://images.pexels.com/photos/1581384/pexels-photo-1581384.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+      image: 'https://preskater.com/local-restaurant',
       technologies: ['React', 'Firebase', 'Stripe', 'Google Maps API'],
-      results: t('portfolio.projects.restaurant.results', { returnObjects: true })
+      results: t('portfolio.projects.restaurant.results', { returnObjects: true }),
+      github: '',
+      link: ''
     },
-    {
-      title: t('portfolio.projects.fitness.title'),
-      category: t('portfolio.projects.fitness.category'),
-      description: t('portfolio.projects.fitness.description'),
-      image: 'https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-      technologies: ['React Native', 'SQLite', 'Chart.js', 'Push Notifications'],
-      results: t('portfolio.projects.fitness.results', { returnObjects: true })
-    },
-    {
-      title: t('portfolio.projects.crm.title'),
-      category: t('portfolio.projects.crm.category'),
-      description: t('portfolio.projects.crm.description'),
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-      technologies: ['Vue.js', 'Node.js', 'MySQL', 'Email Integration'],
-      results: t('portfolio.projects.crm.results', { returnObjects: true })
-    },
+    // {
+    //   title: t('portfolio.projects.fitness.title'),
+    //   category: t('portfolio.projects.fitness.category'),
+    //   description: t('portfolio.projects.fitness.description'),
+    //   image: 'https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    //   technologies: ['React Native', 'SQLite', 'Chart.js', 'Push Notifications'],
+    //   results: t('portfolio.projects.fitness.results', { returnObjects: true }),
+    //   github: '',
+    //   link: ''
+    // },
+    // {
+    //   title: t('portfolio.projects.crm.title'),
+    //   category: t('portfolio.projects.crm.category'),
+    //   description: t('portfolio.projects.crm.description'),
+    //   image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
+    //   technologies: ['Vue.js', 'Node.js', 'MySQL', 'Email Integration'],
+    //   results: t('portfolio.projects.crm.results', { returnObjects: true }),
+    //   github: '',
+    //   link: ''
+    // },
     {
       title: t('portfolio.projects.portfolio.title'),
       category: t('portfolio.projects.portfolio.category'),
       description: t('portfolio.projects.portfolio.description'),
-      image: 'https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop',
-      technologies: ['HTML/CSS', 'JavaScript', 'Lightbox', 'Contact Forms'],
-      results: t('portfolio.projects.portfolio.results', { returnObjects: true })
+      image: 'https://julithein.dev',
+      technologies: ['React', 'Vite', 'TailwindCSS', 'Contact Forms'],
+      results: t('portfolio.projects.portfolio.results', { returnObjects: true }),
+      github: '',
+      link: ''
     }
   ];
 
@@ -76,25 +86,26 @@ const Portfolio = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
+              className="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1 border border-black"
             >
               {/* Project Image */}
               <div className="relative overflow-hidden">
-                <img
+                <iframe
                   src={project.image}
-                  alt={project.title}
+                  title={project.title}
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-                />
+                  style={{ border: 'none' }}
+                ></iframe>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="absolute top-4 left-4">
-                  <span className="bg-white/90 backdrop-blur-sm text-gray-700 px-3 py-1 rounded-full text-sm font-medium">
+                  <span className="bg-white/90 backdrop-blur-sm drop-shadow-sm text-gray-700 px-3 py-1 rounded-full text-sm font-medium">
                     {project.category}
                   </span>
                 </div>
               </div>
 
               {/* Project Content */}
-              <div className="p-8">
+              <div className="p-8 border-t border-black">
                 <h3 className="text-xl font-bold text-gray-900 mb-3 group-hover:text-teal-700 transition-colors">
                   {project.title}
                 </h3>
@@ -126,20 +137,15 @@ const Portfolio = () => {
 
                 {/* Action Buttons */}
                 <div className="flex items-center justify-between">
-                  <button className="flex items-center text-teal-600 hover:text-teal-700 font-medium transition-colors group">
+                  <button
+                    className="flex items-center text-teal-600 hover:text-teal-700 font-medium transition-colors group"
+                    onClick={() => window.open(project.image, '_blank')}
+                    >
                     <span>
                       {t('portfolio.viewCase')}
                     </span>
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                   </button>
-                  <div className="flex space-x-3">
-                    <button className="p-2 text-gray-400 hover:text-gray-600 transition-colors">
-                      <ExternalLink className="w-5 h-5" />
-                    </button>
-                    <button className="p-2 text-gray-400 hover:text-gray-600 transition-colors">
-                      <Github className="w-5 h-5" />
-                    </button>
-                  </div>
                 </div>
               </div>
             </div>
