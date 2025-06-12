@@ -26,7 +26,7 @@ const Team = () => {
       name: t('team.members.hugo.name'),
       role: t('team.members.hugo.role'),
       bio: t('team.members.hugo.bio'),
-      image: 'https://media.licdn.com/dms/image/v2/D4E35AQFJ5uxkDML6hg/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1680587040797?e=1750334400&v=beta&t=BrVSpXpXPwoRASF1YSa_ocfiruLu_7veC983q65bWgU',
+      image: 'https://avatars.githubusercontent.com/u/114651846?v=4',
       skills: t('team.members.hugo.skills', { returnObjects: true }) as string[],
       socials: [
         {

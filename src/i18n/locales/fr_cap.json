@@ -162,20 +162,20 @@
       },
       "hugo": {
         "name": "Hugo Carolin",
-        "role": "Développeur Frontend Principal",
-        "bio": "Spécialiste UI/UX passionnée par la création d'expériences utilisateur intuitives avec les technologies web modernes.",
+        "role": "Développeur FullStack",
+        "bio": "Développeur fullstack polyvalent qui conçoit des applications web efficaces et évolutives à l'aide de technologies modernes. Passionné par un code propre et des expériences utilisateur transparentes.",
         "skills": ["React", "Design UI/UX", "Optimisation des Performances"]
       },
       "julien": {
         "name": "Julien Ferdinand",
         "role": "Développeur FullStack",
-        "bio": "Développeur fullstack avec une expertise dans la création d'applications web et mobile dynamiques et réactives, du frontend au backend.",
+        "bio": "Développeur fullstack motivé, axé sur la fourniture de solutions innovantes et faciles à maintenir à tous les niveaux. Aime résoudre des défis complexes avec un code élégant.",
         "skills": ["React", "Symfony", "Python", "Node.js"]
       },
       "leo": {
         "name": "Léo Sautron",
-        "role": "Développeur Backend Principal",
-        "bio": "Expert en développement backend avec une solide expérience dans la création d'architectures robustes et évolutives pour les applications d'entreprise.",
+        "role": "Développeur Fullstack",
+        "bio": "Développeur fullstack expérimenté alliant la finesse du front-end à la logique robuste du back-end pour fournir des solutions numériques soignées et prêtes à être produites.",
         "skills": ["Node.js", "Python", "Bases de Données SQL/NoSQL", "Microservices"]
       },
       "luan": {
@@ -187,7 +187,7 @@
       "nathan": {
         "name": "Nathan Maillot",
         "role": "Développeur FullStack",
-        "bio": "Développeur fullstack avec une expertise dans la création d'applications web et mobile dynamiques et réactives, du frontend au backend.",
+        "bio": "Développeur fullstack compétent en JavaScript, Node.js et React. Construit des applications sécurisées et performantes adaptées aux besoins des clients.",
         "skills": ["React", "Python", "Node.js"]
       }
     },

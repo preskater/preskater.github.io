@@ -162,20 +162,20 @@
       },
       "hugo": {
         "name": "Hugo Carolin",
-        "role": "Main Frontend Developer",
-        "bio": "UI/UX specialist passionate about creating intuitive user experiences with modern web technologies.",
+        "role": "Fullstack Developer",
+        "bio": "Versatile fullstack developer crafting efficient, scalable web applications with modern technologies. Passionate about clean code and seamless user experiences.",
         "skills": ["React", "Design UI/UX", "Performance Optimization"]
       },
       "julien": {
         "name": "Julien Ferdinand",
         "role": "FullStack Developer",
-        "bio": "Fullstack developer with expertise in creating dynamic, responsive web and mobile applications, from frontend to backend.",
+        "bio": "Driven fullstack developer focused on delivering innovative, maintainable solutions across the stack. Loves solving complex challenges with elegant code.",
         "skills": ["React", "Symfony", "Python", "Node.js"]
       },
       "leo": {
         "name": "Léo Sautron",
-        "role": "Main Backend Developer",
-        "bio": "Backend development expert with solid experience in creating robust, scalable architectures for enterprise applications.",
+        "role": "Fullstack Developer",
+        "bio": "Experienced fullstack developer blending front-end finesse with robust back-end logic to deliver polished, production-ready digital solutions.",
         "skills": ["Node.js", "Python", "SQL/NoSQL Databases", "Microservices"]
       },
       "luan": {
@@ -187,7 +187,7 @@
       "nathan": {
         "name": "Nathan Maillot",
         "role": "FullStack Developer",
-        "bio": "Fullstack developer with expertise in creating dynamic, responsive web and mobile applications, from frontend to backend.",
+        "bio": "Fullstack developer skilled in JavaScript, Node.js, and React. Builds secure, high-performance apps tailored to client needs.",
         "skills": ["React", "Python", "Node.js"]
       }
     },
