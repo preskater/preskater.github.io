@@ -98,7 +98,7 @@ const Portfolio = () => {
                 ></iframe>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                 <div className="absolute top-4 left-4">
-                  <span className="bg-white/90 backdrop-blur-sm drop-shadow-sm text-gray-700 px-3 py-1 rounded-full text-sm font-medium">
+                  <span className="bg-gradient-to-r from-teal-600/90 to-teal-700/90 text-white backdrop-blur-sm drop-shadow-sm px-3 py-1 rounded-full text-sm font-medium">
                     {project.category}
                   </span>
                 </div>
@@ -140,6 +140,7 @@ const Portfolio = () => {
                   <button
                     className="flex items-center text-teal-600 hover:text-teal-700 font-medium transition-colors group"
                     onClick={() => window.open(project.image, '_blank')}
+                    aria-label={t('portfolio.viewCase', { project: project.title })}
                     >
                     <span>
                       {t('portfolio.viewCase')}
@@ -166,6 +167,7 @@ const Portfolio = () => {
               if (element) element.scrollIntoView({ behavior: 'smooth' });
             }}
             className="bg-gradient-to-r from-teal-600 to-teal-700 text-white px-8 py-3 rounded-xl hover:from-teal-700 hover:to-teal-800 transition-all font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105"
+            aria-label={t('portfolio.cta.button')}
           >
             {t('portfolio.cta.button')}
             <ArrowRight className="inline-block ml-2 w-5 h-5" />

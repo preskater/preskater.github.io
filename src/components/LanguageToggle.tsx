@@ -26,6 +26,7 @@ const LanguageToggle = () => {
       onClick={toggleLanguage}
       className={`flex items-center space-x-2 px-3 py-2 rounded-lg backdrop-blur-sm text-white/90 transition-colors border ${isScrolled ? "border-gray-700 bg-gray-50 hover:bg-gray-100" : "border-white/20 bg-white/10 hover:bg-white/20"}`}
       title={i18n.language === 'en' ? 'Switch to English' : 'Passer au Français'}
+      aria-label='Toggle language'
     >
       <Globe className={`w-4 h-4 ${
               isScrolled ? 'text-gray-700' : 'text-white'

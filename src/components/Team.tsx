@@ -173,6 +173,7 @@ const Team = () => {
                     key={iconIndex}
                     className="w-10 h-10 bg-gray-100 rounded-full flex items-center justify-center text-gray-600 hover:bg-teal-600 hover:text-white transition-colors"
                     onClick={() => window.open(social.url, '_blank')}
+                    aria-label={`Open ${social.icon.name} profile`}
                   >
                     <social.icon className="w-5 h-5" />
                   </button>
@@ -210,7 +211,7 @@ const Team = () => {
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto text-lg">
             {t('team.joinTeam.subtitle')}
           </p>
-          <button className="bg-gradient-to-r from-teal-600 to-teal-700 text-white px-8 py-3 rounded-xl hover:from-teal-700 hover:to-teal-800 transition-all font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105">
+          <button className="bg-gradient-to-r from-teal-600 to-teal-700 text-white px-8 py-3 rounded-xl hover:from-teal-700 hover:to-teal-800 transition-all font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105" aria-label={t('team.joinTeam.button')}>
             {t('team.joinTeam.button')}
           </button>
         </div> */}

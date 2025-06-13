@@ -139,6 +139,7 @@ const Contact = () => {
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
                         placeholder={t('contact.form.placeholders.name')}
                         disabled={isFormDown}
+                        autoComplete='name'
                       />
                     </div>
                     <div>
@@ -155,6 +156,7 @@ const Contact = () => {
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
                         placeholder= {t('contact.form.placeholders.email')}
                         disabled={isFormDown}
+                        autoComplete='email'
                       />
                     </div>
                   </div>
@@ -173,6 +175,7 @@ const Contact = () => {
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
                         placeholder={t('contact.form.placeholders.company')}
                         disabled={isFormDown}
+                        autoComplete='organization'
                       />
                     </div>
                     <div>
@@ -186,6 +189,7 @@ const Contact = () => {
                         onChange={handleChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
                         disabled={isFormDown}
+                        autoComplete='off'
                       >
                         <option value="">{t('contact.form.projectTypes.select')}</option>
                         <option value="web-app">{t('contact.form.projectTypes.webApp')}</option>
@@ -210,6 +214,7 @@ const Contact = () => {
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors"
                         disabled={isFormDown}
+                        autoComplete='off'
                     >
                       <option value="">{t('contact.form.budgetRanges.select')}</option>
                       <option value="not-sure">{t('contact.form.budgetRanges.notSure')}</option>
@@ -235,6 +240,7 @@ const Contact = () => {
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent transition-colors resize-none"
                       placeholder={t('contact.form.placeholders.message')}
                       disabled={isFormDown}
+                      autoComplete='off'
                     ></textarea>
                   </div>
 
@@ -242,6 +248,7 @@ const Contact = () => {
                     type="submit"
                     className="w-full bg-gradient-to-r from-red-600 to-red-700 text-white py-4 px-8 rounded-lg hover:from-red-700 hover:to-red-800 transition-all font-semibold text-lg shadow-lg transform flex items-center justify-center space-x-2"
                     disabled={isFormDown}
+                    aria-label={t('contact.form.sendDisabled')}
                   >
                     <Ban className="w-10 h-10" />
                     <span>{t('contact.form.sendDisabled')}</span>
@@ -250,6 +257,7 @@ const Contact = () => {
                   <button
                     type="submit"
                     className="w-full bg-gradient-to-r from-teal-600 to-teal-700 text-white py-4 px-8 rounded-lg hover:from-teal-700 hover:to-teal-800 transition-all font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-[1.02] flex items-center justify-center space-x-2"
+                    aria-label={t('contact.form.send')}
                   >
                     <Send className="w-5 h-5" />
                     <span>{t('contact.form.send')}</span>

@@ -64,10 +64,10 @@ const About = () => {
           {/* Image */}
           <div className="relative">
             <div className="aspect-w-4 aspect-h-3 rounded-2xl overflow-hidden shadow-2xl">
-              <img
+              <iframe
                 src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop"
-                alt="Team collaboration"
-                className="w-full h-full object-cover"
+                title="Team collaboration"
+                className="w-full h-[50dvh] pointer-events-none"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-gradient-to-br from-teal-500 to-teal-600 rounded-2xl flex items-center justify-center shadow-xl">

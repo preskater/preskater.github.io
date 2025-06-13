@@ -54,6 +54,7 @@ const Hero = () => {
             <button
               onClick={() => scrollToSection('contact')}
               className="group bg-gradient-to-r from-teal-600 to-teal-700 text-white px-8 py-4 rounded-xl hover:from-teal-700 hover:to-teal-800 transition-all transform hover:scale-105 flex items-center space-x-3 shadow-xl text-lg font-semibold"
+              aria-label={t('hero.startProject')}
             >
               <span>{t('hero.startProject')}</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -61,6 +62,7 @@ const Hero = () => {
             <button
               onClick={() => scrollToSection('portfolio')}
               className="bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-xl hover:bg-white/20 transition-all border border-white/20 flex items-center space-x-3 text-lg font-semibold"
+              aria-label={t('hero.viewWork')}
             >
               <span>{t('hero.viewWork')}</span>
             </button>

@@ -111,6 +111,7 @@ const Services = () => {
                 if (element) element.scrollIntoView({ behavior: 'smooth' });
               }}
               className="bg-white text-teal-700 px-8 py-3 rounded-xl hover:bg-gray-50 transition-colors font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105"
+              aria-label={t('services.cta.button')}
             >
               {t('services.cta.button')}
             </button>

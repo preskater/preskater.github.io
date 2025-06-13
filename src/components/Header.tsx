@@ -61,6 +61,7 @@ const Header = () => {
                 className={`font-medium transition-colors hover:text-teal-600 ${
                   isScrolled ? 'text-gray-700' : 'text-white/90'
                 }`}
+                aria-label={`Navigate to ${item.label}`}
               >
                 {item.label}
               </button>
@@ -73,6 +74,7 @@ const Header = () => {
             <button
               onClick={() => scrollToSection('contact')}
               className="bg-gradient-to-r from-teal-600 to-teal-700 text-white px-6 py-2.5 rounded-lg hover:from-teal-700 hover:to-teal-800 transition-all transform hover:scale-105 flex items-center space-x-2 shadow-lg"
+              aria-label={t('nav.getStarted')}
             >
               <span className="font-medium">{t('nav.getStarted')}</span>
               <ChevronRight className="w-4 h-4" />
@@ -85,6 +87,8 @@ const Header = () => {
             className={`md:hidden p-2 rounded-lg transition-colors ${
               isScrolled ? 'text-gray-700 hover:bg-gray-100' : 'text-white hover:bg-white/10'
             }`}
+            aria-label={isMenuOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={isMenuOpen}
           >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -99,6 +103,7 @@ const Header = () => {
                   key={item.key}
                   onClick={() => scrollToSection(item.key)}
                   className="block w-full text-left py-2 px-3 text-gray-700 hover:bg-gray-50 rounded-lg transition-colors"
+                  aria-label={`Navigate to ${item.label} section`}
                 >
                   {item.label}
                 </button>
@@ -111,6 +116,7 @@ const Header = () => {
                 <button
                   onClick={() => scrollToSection('contact')}
                   className="w-full bg-gradient-to-r from-teal-600 to-teal-700 text-white px-4 py-3 rounded-lg hover:from-teal-700 hover:to-teal-800 transition-all flex items-center justify-center space-x-2"
+                  aria-label={t('nav.getStarted')}
                 >
                   <span className="font-medium">{t('nav.getStarted')}</span>
                   <ChevronRight className="w-4 h-4" />

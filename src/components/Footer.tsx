@@ -46,6 +46,7 @@ const Footer = () => {
                   key={index}
                   className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center text-gray-400 hover:bg-teal-600 hover:text-white transition-colors"
                   onClick={() => window.open(Icon.url, '_blank')}
+                  aria-label={`Open social media link ${Icon.name}`}
                 >
                   <Icon.icon className="w-5 h-5" />
                 </button>
@@ -61,6 +62,7 @@ const Footer = () => {
                   <button
                     onClick={() => scrollToSection('services')}
                     className="text-gray-300 hover:text-teal-400 transition-colors cursor-pointer"
+                    aria-label='Scroll to service section'
                   >
                     {service}
                   </button>
@@ -79,6 +81,7 @@ const Footer = () => {
                   <button
                     onClick={() => scrollToSection(item.section)}
                     className="text-gray-300 hover:text-teal-400 transition-colors cursor-pointer"
+                    aria-label='Scroll to company section'
                   >
                     {item.text}
                   </button>
@@ -127,11 +130,12 @@ const Footer = () => {
             </div>
             <div className="flex flex-col sm:flex-row gap-3">
               <input
+                name='email'
                 type="email"
                 placeholder={t('footer.newsletter.placeholder')}
                 className="px-4 py-2 bg-gray-800 border border-gray-700 rounded-lg text-white placeholder-gray-400 focus:ring-2 focus:ring-teal-500 focus:border-transparent"
               />
-              <button className="px-6 py-2 bg-gradient-to-r from-teal-600 to-teal-700 text-white rounded-lg hover:from-teal-700 hover:to-teal-800 transition-all font-medium">
+              <button className="px-6 py-2 bg-gradient-to-r from-teal-600 to-teal-700 text-white rounded-lg hover:from-teal-700 hover:to-teal-800 transition-all font-medium" aria-label='Subscribe to the newsletter' >
                 {t('footer.newsletter.subscribe')}
               </button>
             </div>
@@ -147,15 +151,16 @@ const Footer = () => {
               © {year} {t('footer.bottom.copyright')}
             </div>
             <div className="flex items-center space-x-6 mt-4 md:mt-0">
-              <button className="text-gray-400 hover:text-teal-400 text-sm transition-colors">
+              <button className="text-gray-400 hover:text-teal-400 text-sm transition-colors" aria-label='Open privacy policy'>
                 {t('footer.bottom.privacy')}
               </button>
-              <button className="text-gray-400 hover:text-teal-400 text-sm transition-colors">
+              <button className="text-gray-400 hover:text-teal-400 text-sm transition-colors" aria-label='Open terms of service'>
                 {t('footer.bottom.terms')}
               </button>
               <button
                 onClick={scrollToTop}
                 className="flex items-center space-x-1 text-gray-400 hover:text-teal-400 text-sm transition-colors group"
+                aria-label='Back to top'
               >
                 <span>{t('footer.bottom.backToTop')}</span>
                 <ArrowUp className="w-4 h-4 group-hover:-translate-y-0.5 transition-transform" />
