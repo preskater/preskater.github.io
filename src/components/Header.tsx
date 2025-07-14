@@ -48,7 +48,7 @@ const Header = () => {
             <span className={`font-bold text-xl lg:text-2xl transition-colors ${
               isScrolled ? 'text-gray-900' : 'text-white'
             }`}>
-              preskater
+              Preskater
             </span>
           </div>
 
