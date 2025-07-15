@@ -211,7 +211,7 @@
       "title": "Contact Information",
       "email": {
         "title": "Email Us",
-        "details": "contact@preskater.com",
+        "details": "contact.preskater@gmail.com",
         "description": "Send us an email anytime"
       },
       "phone": {
@@ -307,7 +307,7 @@
     "contactInfo": {
       "title": "Contact Info",
       "email": {
-        "value": "contact@preskater.com",
+        "value": "contact.preskater@gmail.com",
         "description": "We respond within 24hrs"
       },
       "phone": {
