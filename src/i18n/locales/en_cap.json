@@ -247,7 +247,7 @@
       "budget": "Project Budget",
       "message": "Project Description",
       "send": "Send message",
-      "sendDisabled": "This form is disable for now, please contact us via email or phone.",
+      "sendDisabled": "This form is disable for now, please contact us via email.",
       "required": "*",
       "placeholders": {
         "name": "Enter your full name",

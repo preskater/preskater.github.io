@@ -1,6 +1,12 @@
 import React from 'react';
-import { Linkedin, Twitter, Github } from 'lucide-react';
+import { Linkedin, Github } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import clement from '../assets/team/clement.png';
+import hugo from '../assets/team/hugo.png';
+import julien from '../assets/team/julien.png';
+import leo from '../assets/team/leo.png';
+import luan from '../assets/team/luan.png';
+import nathan from '../assets/team/nathan.jpg';
 
 const Team = () => {
   const { t } = useTranslation();
@@ -9,7 +15,7 @@ const Team = () => {
       name: t('team.members.clement.name'),
       role: t('team.members.clement.role'),
       bio: t('team.members.clement.bio'),
-      image: 'https://media.licdn.com/dms/image/v2/D5603AQFYOTZC6mMQqw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711000282872?e=1755129600&v=beta&t=Z5Jx0mfQ_i7CQuE7via_k-5ITgflX9W_CyES_AkTEnA',
+      image: clement,
       skills: t('team.members.clement.skills', { returnObjects: true }) as string[],
       socials: [
         {
@@ -26,7 +32,7 @@ const Team = () => {
       name: t('team.members.hugo.name'),
       role: t('team.members.hugo.role'),
       bio: t('team.members.hugo.bio'),
-      image: 'https://avatars.githubusercontent.com/u/114651846?v=4',
+      image: hugo,
       skills: t('team.members.hugo.skills', { returnObjects: true }) as string[],
       socials: [
         {
@@ -43,7 +49,7 @@ const Team = () => {
       name: t('team.members.julien.name'),
       role: t('team.members.julien.role'),
       bio: t('team.members.julien.bio'),
-      image: 'https://media.licdn.com/dms/image/v2/D4E03AQG0KPKF_k8kyw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1695709998447?e=1755129600&v=beta&t=VROH4PrF3v5F5PQoTFzr-6wtr9JEmkSDdZpXsGX_udo',
+      image: julien,
       skills: t('team.members.julien.skills', { returnObjects: true }) as string[],
       socials: [
         {
@@ -60,7 +66,7 @@ const Team = () => {
       name: t('team.members.leo.name'),
       role: t('team.members.leo.role'),
       bio: t('team.members.leo.bio'),
-      image: 'https://media.licdn.com/dms/image/v2/D5603AQHXM0z5BRfFpA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1689669494179?e=1755129600&v=beta&t=9r9ShqCJb_6jfQB0-k3uLbxjAZvFdKCvIqc2LtJC-00',
+      image: leo,
       skills: t('team.members.leo.skills', { returnObjects: true }) as string[],
       socials: [
         {
@@ -77,7 +83,7 @@ const Team = () => {
       name: t('team.members.luan.name'),
       role: t('team.members.luan.role'),
       bio: t('team.members.luan.bio'),
-      image: 'https://media.licdn.com/dms/image/v2/D5603AQEkGNto9y0ZaQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1699973764611?e=1755129600&v=beta&t=nJTKnDH3IMJrSo1ggnfYMywq0O-uf0Be8XDpScDyuCE',
+      image: luan,
       skills: t('team.members.luan.skills', { returnObjects: true }) as string[],
       socials: [
         {
@@ -94,7 +100,7 @@ const Team = () => {
       name: t('team.members.nathan.name'),
       role: t('team.members.nathan.role'),
       bio: t('team.members.nathan.bio'),
-      image: 'https://media.licdn.com/dms/image/v2/D4E03AQHaM1H4lUSV1Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1668523204687?e=1755129600&v=beta&t=RzH1zFtDV3dExpfrfZ-tY-2tqaup8rvoCQ04sKCPIvw',
+      image: nathan,
       skills: t('team.members.nathan.skills', { returnObjects: true }) as string[],
       socials: [
         {

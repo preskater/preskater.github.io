@@ -39,18 +39,6 @@ const Contact = () => {
       description: t('contact.info.email.description')
     },
     {
-      icon: Phone,
-      title: t('contact.info.phone.title'),
-      details: t('contact.info.phone.details'),
-      description: t('contact.info.phone.description')
-    },
-    {
-      icon: MapPin,
-      title: t('contact.info.location.title'),
-      details: t('contact.info.location.details'),
-      description: t('contact.info.location.description')
-    },
-    {
       icon: Clock,
       title: t('contact.info.response.title'),
       details: t('contact.info.response.details'),

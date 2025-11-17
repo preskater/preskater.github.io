@@ -102,7 +102,7 @@
   },
   "portfolio": {
     "badge": "Notre Portfolio",
-    "title": "Succes Stories",
+    "title": "Success Stories",
     "subtitle": "Des solutions d'entreprise aux outils pour petites entreprises, nous avons aidé des clients de différentes échelles à atteindre leurs objectifs de transformation numérique grâce à des solutions logicielles sur mesure.",
     "projects": {
       "dashboard": {
@@ -143,7 +143,7 @@
       }
     },
     "cta": {
-      "title": "Prêt à Être Notre Prochaine Succes Story ?",
+      "title": "Prêt à Être Notre Prochaine Success Story ?",
       "subtitle": "Chaque grand projet commence par une conversation. Discutons de votre vision et explorons comment nous pouvons la concrétiser.",
       "button": "Démarrez Votre Projet Aujourd'hui"
     },
@@ -247,7 +247,7 @@
       "budget": "Budget du Projet",
       "message": "Description du Projet",
       "send": "Envoyer",
-      "sendDisabled": "Ce formulaire est désactivé pour le moment, veuillez nous contacter par email ou par téléphone.",
+      "sendDisabled": "Ce formulaire est désactivé pour le moment, veuillez nous contacter par email.",
       "required": "*",
       "placeholders": {
         "name": "Entrez votre nom complet",

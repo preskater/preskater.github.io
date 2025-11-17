@@ -17,8 +17,7 @@ const Footer = () => {
   };
 
   const links = [
-    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com' },
-    { name: 'Twitter', icon: Twitter, url: 'https://www.twitter.com' },
+    { name: 'LinkedIn', icon: Linkedin, url: 'https://www.linkedin.com/company/preskater' },
     { name: 'GitHub', icon: Github, url: 'https://www.github.com/preskater' },
   ];
 
@@ -101,27 +100,27 @@ const Footer = () => {
                   <p className="text-gray-400 text-sm">{t('footer.contactInfo.email.description')}</p>
                 </div>
               </div>
-              <div className="flex items-start space-x-3">
+              {/* <div className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 text-teal-500 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-gray-300">{t('footer.contactInfo.phone.value')}</p>
                   <p className="text-gray-400 text-sm">{t('footer.contactInfo.phone.description')}</p>
                 </div>
-              </div>
-              <div className="flex items-start space-x-3">
+              </div> */}
+              {/* <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-teal-500 mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-gray-300">{t('footer.contactInfo.location.value')}</p>
                   <p className="text-gray-400 text-sm">{t('footer.contactInfo.location.description')}</p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
       </div>
 
       {/* Newsletter Section */}
-      <div className="border-t border-gray-800">
+      {/* <div className="border-t border-gray-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="md:flex md:items-center md:justify-between">
             <div className="mb-4 md:mb-0">
@@ -141,7 +140,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Bottom Footer */}
       <div className="border-t border-gray-800">
